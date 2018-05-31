@@ -3,23 +3,23 @@ const sayHello = (string) => {
 };
 
 const uppercase = (string) => {
-  // your code here
+  return string.toUpperCase(string);
 };
 
 const lowercase = (string) => {
-  // your code here
+  return string.toLowerCase(string);
 };
 
 const countCharacters = (string) => {
-  // your code here
+  return string.length
 };
 
 const firstCharacter = (string) => {
-  // your code here
+  return string.charAt(0);
 };
 
 const firstCharacters = (string, n) => {
-  // your code here
+  return string.substring(string, n);
 };
 
 module.exports = {
