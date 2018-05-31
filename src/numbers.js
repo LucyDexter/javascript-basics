@@ -19,7 +19,7 @@ const power = (a, b) => {
 };
 
 const round = (a) => {
-  return Math.round(a);
+ return Math.round(a);
 };
 
 const roundUp = (a) => {
@@ -35,11 +35,19 @@ const absolute = (a) => {
 };
 
 const quotient = (a, b) => {
+<<<<<<< HEAD
   return parseInt(a / b)
 };
 
 const remainder = (a, b) => {
   return a % b;
+=======
+ return parseInt(a / b);
+};
+
+const remainder = (a, b) => {
+  return a%b;
+>>>>>>> numbers completed
 };
 
 module.exports = {
