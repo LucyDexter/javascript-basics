@@ -11,7 +11,9 @@ const either = (a, b) => {
 };
 
 const none = (a, b) => {
-  // your code here
+  if(a === false && b === false) { 
+  return true} else
+  {return false}
 };
 
 const one = (a, b) => {
