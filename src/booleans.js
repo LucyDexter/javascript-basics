@@ -11,7 +11,7 @@ const either = (a, b) => {
 };
 
 const none = (a, b) => {
-  return (a != b);
+  // your code here
 };
 
 const one = (a, b) => {
