@@ -37,19 +37,21 @@ const isGreaterThan = (a, b) => {
 };
 
 const isLessThanOrEqualTo = (a, b) => {
-  // your code here
+  if(a <= b) {
+    return true} else
+    {return false}
 };
 
 const isOdd = (a) => {
-  // your code here
+  return a % 2 === 1
 };
 
 const isEven = (a) => {
-  // your code here
+  return a % 2 === 0
 };
 
 const isSquare = (a) => {
-  // your code here
+  
 };
 
 const startsWith = (char, string) => {
