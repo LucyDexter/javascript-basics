@@ -17,19 +17,23 @@ const none = (a, b) => {
 };
 
 const one = (a, b) => {
-  // your code here
+
 };
 
 const truthiness = (a) => {
-  // your code here
+  return !!a
 };
 
 const isEqual = (a, b) => {
-  // your code here
+  if(a === b) {
+    return true} else
+    {return false}
 };
 
 const isGreaterThan = (a, b) => {
-  // your code here
+  if( a > b) {
+    return true} else
+    {return false}
 };
 
 const isLessThanOrEqualTo = (a, b) => {
