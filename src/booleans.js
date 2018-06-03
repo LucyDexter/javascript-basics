@@ -69,15 +69,17 @@ const isSquare = (a) => {
 };
 
 const startsWith = (char, string) => {
-  // your code here
+  return string.startsWith(char)
 };
 
 const containsVowels = (string) => {
-  // your code here
-};
+  /*  practice code for (let characterIndex = 0; characterIndex < string.length; characterIndex ++)
+       return string === ['a','e','i','o','u'].include(string[characterIndex]) */
+      }; 
 
 const isLowerCase = (string) => {
-  // your code here
+  for (let characterIndex = 0; characterIndex < string.length; characterIndex++)
+    return string === string.toLowerCase(string[characterIndex])
 };
 
 module.exports = {
