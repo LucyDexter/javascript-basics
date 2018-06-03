@@ -17,7 +17,7 @@ const none = (a, b) => {
 };
 
 const one = (a, b) => {
-
+ 
 };
 
 const truthiness = (a) => {
@@ -51,19 +51,20 @@ const isEven = (a) => {
 };
 
 const isSquare = (a) => {
-  
+  return Math.sqrt(a) % 1 === 0;
 };
 
 const startsWith = (char, string) => {
-  // your code here
+  return string.startsWith(char, 0)
 };
 
 const containsVowels = (string) => {
-  // your code here
+  
 };
 
 const isLowerCase = (string) => {
-  // your code here
+  for (let characterIndex = 0; characterIndex < string.length; characterIndex++)
+   return string === string.toLowerCase(string[characterIndex])
 };
 
 module.exports = {
