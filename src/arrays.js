@@ -49,11 +49,13 @@ const elementsStartingWithAVowel = (strings) => {
 };
 
 const removeSpaces = (string) => {
-  // your code here
+  return string.replace(/\s/g, '');
 };
 
 const sumNumbers = (numbers) => {
-  // your code here
+  return numbers.reduce(function(a, b) {
+    return a + b
+  })
 };
 
 const sortByLastLetter = (strings) => {
