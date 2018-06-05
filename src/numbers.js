@@ -35,19 +35,11 @@ const absolute = (a) => {
 };
 
 const quotient = (a, b) => {
-<<<<<<< HEAD
-  return parseInt(a / b)
-};
-
-const remainder = (a, b) => {
-  return a % b;
-=======
  return parseInt(a / b);
 };
 
 const remainder = (a, b) => {
   return a%b;
->>>>>>> numbers completed
 };
 
 module.exports = {
