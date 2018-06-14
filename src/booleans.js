@@ -11,6 +11,8 @@ const either = (a, b) => {
 };
 
 const none = (a, b) => {
+  // you can just return the expression.
+  // also code on new lines
   if(a === false && b === false) { 
   return true} else
   {return false}
@@ -63,6 +65,7 @@ const containsVowels = (string) => {
 };
 
 const isLowerCase = (string) => {
+  // always use {} for blocks - makes it easier to read
   for (let characterIndex = 0; characterIndex < string.length; characterIndex++)
    return string === string.toLowerCase(string[characterIndex])
 };

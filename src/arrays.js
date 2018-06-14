@@ -23,6 +23,7 @@ const removeNthElement = (index, array) => {
 };
 
 const numbersToStrings = (numbers) => {
+  // consistency in indentation
   const string = numbers.toString();
  return string.split(',');
 };
