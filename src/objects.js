@@ -1,4 +1,5 @@
 const createPerson = (name, age) => {
+  // no need for parentheses around values here
    const myObj = {age: (age),
   name: (name)};
    return myObj
@@ -9,6 +10,7 @@ const getName = (object) => {
 };
 
 const getProperty = (property, object) => {
+  // no need for parentheses
   return (object[property]);
 };
 
